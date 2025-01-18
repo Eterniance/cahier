@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cahier"
+version = "0.1.0"
+description = "Un outil open source pour stocker et analyser les ouvertures d'échecs avec une interface interactive"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name = "François Kinet" }
+]
+dependencies = [
+    "PySide6",
+    "python-chess"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
